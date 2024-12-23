@@ -7686,7 +7686,7 @@ void WS2812FX::setupEffectData() {
   // --- 1D non-audio effects ---
   addEffect(FX_MODE_BLINK, &mode_blink, _data_FX_MODE_BLINK);
   addEffect(FX_MODE_BREATH, &mode_breath, _data_FX_MODE_BREATH);
-  addEffect(FX_MODE_COLOR_WIPE, &mode_color_wipe, _data_FX_MODE_COLOR_WIPE);
+//  addEffect(FX_MODE_COLOR_WIPE, &mode_color_wipe, _data_FX_MODE_COLOR_WIPE);
   addEffect(FX_MODE_COLOR_WIPE_RANDOM, &mode_color_wipe_random, _data_FX_MODE_COLOR_WIPE_RANDOM);
   addEffect(FX_MODE_RANDOM_COLOR, &mode_random_color, _data_FX_MODE_RANDOM_COLOR);
   addEffect(FX_MODE_COLOR_SWEEP, &mode_color_sweep, _data_FX_MODE_COLOR_SWEEP);
