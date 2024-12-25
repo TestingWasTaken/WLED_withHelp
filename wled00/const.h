@@ -578,7 +578,7 @@
 #else
   #define DEFAULT_LED_PIN 16   // aligns with GPIO2 (D4) on Wemos D1 mini32 compatible boards (if it is unusable it will be reassigned in WS2812FX::finalizeInit())
 #endif
-#define DEFAULT_LED_TYPE TYPE_WS2815_GRB
+#define DEFAULT_LED_TYPE TYPE_WS2812_RGB
 #define DEFAULT_LED_COUNT 500
 
 #define INTERFACE_UPDATE_COOLDOWN 1000 // time in ms to wait between websockets, alexa, and MQTT updates
